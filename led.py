@@ -1,14 +1,8 @@
-import RPi.GPIO as GPIO
-import time
-
-# Setup.
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-GPIO.setup(18,GPIO.OUT)
-
-# print "LED on"
-# GPIO.output(18,GPIO.HIGH)
-# time.sleep(1)
-
-# print "LED off"
-# GPIO.output(18,GPIO.LOW)
+# AGENDA:
+# 1. Import.
+# 2. Setup.
+# 3. Turn on the LED.
+# 4. Change speeds.
+# 5. If statements.
+# 6. Loop it!
+# 7. Package it into a function.
